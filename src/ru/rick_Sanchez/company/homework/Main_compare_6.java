@@ -10,7 +10,7 @@ import java.util.Arrays;
 // Абстрактная граница показана символами ||, эти символы в массив не входят.
 public class Main_compare_6 {
     public static void main(String[] args) {
-        int[] array = new int[]{2, 3, 3, 3 , 1, 4, 1};
+        int[] array = new int[]{2,1,1,1};
         System.out.println(Arrays.toString(array)+" --> " + checkBalance(array));
     }
 

@@ -16,12 +16,10 @@ public class Main_swap_1 {
     }
 
     public static void swap(int[] array){
-        int one = 1;
-        int zero = 0;
         for(int i = 0; i < array.length ; i++) {
-            if(array[i] == one){
-                array[i] = zero;
-            }else array[i] = one;
+            if(array[i] == 1){
+                array[i] = 0;
+            }else array[i] = 1;
         }
     }
 }
